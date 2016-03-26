@@ -1,0 +1,92 @@
+$(document).ready(function(){
+	$(".nature").hide();
+	$(".nature1").hide();
+	$(".art").hide();
+	$(".satin").hide();
+	$(".gloss").hide();
+	$(".iridescent").hide();
+	$(".quiet").hide();
+	$(".proud").hide();
+	$(".joy").hide();
+})
+//narture
+$(document).on("click","#nature",function(){
+	$(this).hide();
+	$(".nature").show();
+})
+$(document).on("click",".nature",function(){
+	$(this).hide();
+	$("#nature").show();
+})
+//nature1
+$(document).on("click","#nature1",function(){
+	$(this).hide();
+	$(".nature1").show();
+})
+$(document).on("click",".nature1",function(){
+	$(this).hide();
+	$("#nature1").show();
+})
+//art
+$(document).on("click","#art",function(){
+	$(this).hide();
+	$(".art").show();
+})
+$(document).on("click",".art",function(){
+	$(this).hide();
+	$("#art").show();
+})
+//satin
+$(document).on("click","#satin",function(){
+	$(this).hide();
+	$(".satin").show();
+})
+$(document).on("click",".satin",function(){
+	$(this).hide();
+	$("#satin").show();
+})
+//gloss
+$(document).on("click","#gloss",function(){
+	$(this).hide();
+	$(".gloss").show();
+})
+$(document).on("click",".gloss",function(){
+	$(this).hide();
+	$("#gloss").show();
+})
+//iridescent
+$(document).on("click","#iridescent",function(){
+	$(this).hide();
+	$(".iridescent").show();
+})
+$(document).on("click",".iridescent",function(){
+	$(this).hide();
+	$("#iridescent").show();
+})
+//quiet
+$(document).on("click","#quiet",function(){
+	$(this).hide();
+	$(".quiet").show();
+})
+$(document).on("click",".quiet",function(){
+	$(this).hide();
+	$("#quiet").show();
+})
+//proud
+$(document).on("click","#proud",function(){
+	$(this).hide();
+	$(".proud").show();
+})
+$(document).on("click",".proud",function(){
+	$(this).hide();
+	$("#proud").show();
+})
+//joy
+$(document).on("click","#joy",function(){
+	$(this).hide();
+	$(".joy").show();
+})
+$(document).on("click",".joy",function(){
+	$(this).hide();
+	$("#joy").show();
+})

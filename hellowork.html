@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio|Yun Zhou</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/gif" href="./img/z.png">
+	<link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script type="text/javascript" src="./jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-70118621-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+	<div class="project_header">
+		<div class="project_nav">
+			<a href="lvcheng.html" class="previous">
+				<img src="./img/pre.png">
+			</a>
+			<a href="index.html#project" class="index">
+				<div>
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+				</div>
+			</a>
+		<a href="what2eat.html" class="next">
+			<img src="./img/next.png">
+		</a>	
+		</div>
+	</div>
+	<div class="content">
+		<div class="title">
+			<h1>HelloWork</h1>
+			<h2>An anti-procrastination timer for Chrome</h2>
+			<h3>Research, design, co-develop | April 2014-May 2014</h3> 
+		</div>
+		<img src="./img/pt/hw_display.png">
+	</div>
+	<ul class="process">
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>Now or later</h1>
+				<p>You might be familiar with this scenario, you are browsing Facebook, have your new project plan in mind which is due Monday, and you still don’t feel ready to start.</p>
+				<img src="./img/pt/deadline.png">
+			</div>
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>Defining design questions</h1>
+				<p>Telling procrastinators “Be practical” or “Just do it” is like telling junk-food lovers “Don’t eat fried chips”. Based on research, I have realized that the habit is more likely a psychological problem rather than a design problem I can solve. However, taking a stop back I can help people to avoid the problems that result from procrastination, namely fear and pressure. Which could break the vicious cycle that results from procrastination.<br><br>After considering the medium which I could exploit best, the target users were narrowed down to those who work on laptops and had a general idea of what to do.</p>
+				<h2>1. You just push yourself too hard.</h2>
+				<p>Psychologist Shawn Achor and his Ted talk —  <a href="http://www.ted.com/talks/shawn_achor_the_happy_secret_to_better_work#t-444336">The happy secret to better work</a>  inspired me with another perspective of why people procrastinate. If a person sets a plan based on their best behavior and takes it as an unmoveable goal, no wonder they fear to start it.</p>
+				<h2>2. Work vs Game</h2>
+				<p>People love games. Obviously, breaking work into specific steps and making it a game is a good idea, but the game desing part would consume a effort. So the solution should be a simple game system.</p>
+			</div>
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>Working to earn relaxation</h1>
+				<p>I chose to create a chrome extension to encourage users to get more time work. Users don’t need to be productive, they just need to do things that are related to their work, including easing their nerves about upcoming work. Users need to earn time to relax by devoting other time to work. The ratio or work time to relaxation time are set by the users themselves.</p>
+			</div>
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<p>I did an early state design following the <a href="https://developer.chrome.com/extensions/getstarted"> chrome extension development guide.</a> The extension let users classify their tabs as work or relaxation by clicking an icon, which switched the tab’s color.</p>
+				<img src="./img/pt/workflow.png">
+			</div>
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>Refining the game system</h1>
+				<p>I did a user test with a paper prototype to figure out how frequently and under what circumstances people are comfortable to interact with the time. Based on the results, it made the most sense that the color of the icon on a new table would be the same as on the prior tab until a user changed it.</p>
+			</div>
+			<img src="./img/pt/pt_ut.png">
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>Designing with Stack Overflow</h1>
+				<p>Chrome only allows one object per extension to interact with, which gave my design a challenge. At first I designed two parts for two functions, one was for classifying tables, and the other was for information about the timer.</p>
+				<img src="./img/pt/wireframe.png">
+				<p>Since the smoothness of an application is a kind of user experience, the design shouldn’t be a burden, it should be clean and light weight. I adjusted the design wile doing research on similar functions found on Stack Overflow.</p>
+			</div>
+			<img src="./img/pt/ui_transform.png">
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text">
+				<h1>People loved the idea and joined in</h1>
+				<p>I created a team for the project, with one developer helping me build the extension and three others as testers. The source code for this project can be found on GitHub. Note, that making an individual project a team project is an efficient way itself to fight procrastination!</p>
+			</div>
+		</li>
+		<li>
+			<span class="s"></span>
+			<div class="content_text share">
+				<h6>If you have feedback about this project, <a href="https://medium.com/@zhouyunsunnyday/hellowork-anti-procrastination-timer-extension-for-chrome-d13f4ff2a0f9">please comment on Medium</a>.</h6>
+			</div>
+		</li>
+	</ul>
+	<div class="bottom">
+		<hr class="divider">
+			<ul class="nav-container">
+				<li class="nav"><a href="fruito.html">fruito</a></li>
+				<li class="nav"><a href="pefin.html">Pefin</a></li>
+				<li class="nav"><a href="lvcheng.html">Lvcheng</a></li>
+				<li class="nav on"><a href="hellowork.html">HelloWork</a></li>
+				<li class="nav"><a href="what2eat.html">What2eat</a></li>
+				<li class="nav"><a href="theone.html">TheOne</a></li>
+				<li class="nav"><a href="e=mc2.html">E=mc²</a></li>
+				<li class="nav"><a href="smartpiggybank.html">SmartPiggyBank</a></li>
+			</ul>
+		<hr class="divider">
+	</div>
+	<div id="contact">
+		<div class="social-network">
+			<!-- <a href="mailto:zhouyun444@gmail.com"><img src="img/sn-email.svg"></a> -->
+			<a href="http://www.linkedin.com/pub/yun-zhou/96/b97/960"><img src="img/sn-linkedin.svg"></a>
+			<a href="https://twitter.com/zhouyunsunnyday"><img src="img/sn-twitter.svg"></a>
+			<a href="https://dribbble.com/yunyunyun"><img src="img/sn-dribbble.svg"></a>
+			<a href="https://github.com/zhouyun"><img src="img/sn-github.svg"></a>
+		</div>
+	</div>
+	<div class="copyright">
+		<h3>Thanks to <a class="medium" href="http://www.medium.com">Medium</a> -- Copyright © 2015 Yun Zhou | Portfolio Version 3</h3>
+	</div>
+</body>
+</html>
